@@ -1,0 +1,129 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fffdfd;}
+
+.card {
+  background-color: white;
+  position: relative;
+  top: 120px;
+  padding: 16px 32px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+  -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+  -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+}
+
+.card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card input {
+  font-size: 20px;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn button {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: #fa8443;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffff;
+  text-transform: capitalize;
+}
+
+.message {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}
+
+form p {
+  text-align: center;
+  font-size: 16px;
+}
+.btn2{
+  background: #fa8443;
+  display: flex;
+  align-items: center;
+  position: relative;
+ width: 20%;
+ height: 40px;
+ border-radius: 10px;
+ color: white;
+ margin-left: 200px;
+ padding-left: 70px;
+ text-decoration: none;
+ font-family: sans-serif;
+ font-weight: 700;
+ transition: calc(1s);
+  
+}
+.btn2:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    padding: 8px 16px;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .card label {
+    font-size: 16px;
+  }
+
+  .card input {
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+  }
+
+  .message {
+    font-size: 12px;
+  }
+
+  form p {
+    font-size: 14px;
+  }
+}
