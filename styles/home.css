@@ -1,7 +1,5 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,10 +10,9 @@ body {
 }
 
 .c1 {
-  max-width: 1800px;
+  max-width: 1500px;
   margin: 0 auto;
 }
-
 
 /* .container{
     background-image: url(/Projects/jadoo/images/Decore.png);
@@ -25,76 +22,560 @@ body {
   
 } */
 
-.herosection{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    /* top: 90px; */
-    height: 100vh;
+.herosection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /* top: 90px; */
+  height: 100vh;
 }
 
-.herosection h6{
-position: relative;
-width: 50%;
-height: 30px;
-font-family: 'Poppins';
+.herosection h6 {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #df6951;
+}
+
+.herosection h1 {
+  width: 100%;
+  height: 267px;
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4em;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  color: #181e4b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.herosection p {
+  width: 70%;
+  height: 90px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+  color: #5e6282;
+  margin-top: -100px;
+}
+
+.herosection button {
+  position: relative;
+  top: 30px;
+  width: 20%;
+  background: #fa8443;
+  border-radius: 8px;
+  height: 3.5em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: capitalize;
+  border: none;
+  transition: calc(1s);
+}
+
+.herosection button:hover {
+  transform: scale(1.2);
+}
+
+.lefts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left1 {
+  position: relative;
+  left: 35em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left1 h4 {
+  width: 98px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #5e6282;
+}
+
+.left1 h1 {
+  width: 100%;
+  height: 65px;
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #14183e;
+  margin-top: -10px;
+}
+
+.rights {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  top: 90px;
+gap: 50px;
+
+
+}
+
+.r2 {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
+-webkit-box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
+-moz-box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
+  border-radius: 10px;
+  padding-top: 90px;
+  
+}
+
+.r2 h6{
+/* Calculated Weather */
+width: 190px;
+height: 27px;
+font-family: 'Open Sans';
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 font-size: 20px;
-line-height: 30px;
-text-transform: uppercase;
-
-color: #DF6951;
-
-
-}
-
-.herosection h1{
-width: 80%;
-height: 267px;
-font-family: 'Volkhov';
-font-style: normal;
-font-weight: 700;
-font-size: 94px;
-line-height: 89px;
-letter-spacing: -0.04em;
-color: #181E4B;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+line-height: 27px;
+text-align: center;
+/* text heading color */
+color: #1E1D4C;
 
 }
 
-.herosection p{
-width:70%;
-height: 90px;
+.r2 p{
+  /* Built Wicket longer admire do barton vanity itself do in it. */
+width: 181px;
+height: 78px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
-line-height: 30px;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+/* TEXT CLR */
 color: #5E6282;
-margin-top: -100px;
+margin-top: -10px;
 
 
 }
 
-.herosection button{
-    position: relative;
-    top: -30px;
-    width: 20%;
-    background: #fa8443;
-    border-radius: 8px;
-    height: 3.5em;
-    font-family: 'Poppins';
+.h6{
+  margin-top: -10px;
+}
+.im{
+margin-top: -40px;
+}
+.section1{
+  /* background-color: white; */
+  height: 70vh;
+}
+
+.under{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  gap: 50px;
+  top: 200px;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -moz-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+      border-radius: 10px;
+     height: 90%;
+     padding-top: 130px;
+
+
+}
+
+.card h2{
+  /* Full Europe */
+
+position: relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+/* TEXT CLR */
+color: #5E6282;
+top: -160px;
+right: 60px;
+
+
+}
+.card h4{
+  /* 28 Days Trip */
+
+position: relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+top: -160px;
+right: 70px;
+display: flex;
+justify-content: space-between;
+width: 25%;
+
+
+}
+
+.card span{
+  position: relative;
+  left: 130px;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.top h1{
+  /* Subheading */
+
+position: relative;
+width: 100%;
+height: 27px;
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
-color: #ffffff;
-text-transform: capitalize;
-border: none;
-transition: calc(1s);
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+top: 40px;
+
+
 }
 
-.herosection button:hover{
-    transform: scale(1.2);
+.top p{
+  /* Heading */
+
+position:relative;
+width: 418px;
+height: 65px;
+
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+
+
 }
+
+.section4{
+position: relative;
+background-color: rgb(255, 255, 255);
+margin-top:300px;
+padding-bottom: 210px;
+/* opacity: 0; */
+}
+
+.s3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 20vh;
+}
+
+.l2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px ;
+}
+
+.right h2{
+/* Subheading */
+width: 126px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+/* TEXT CLR */
+color: #5E6282;
+margin-bottom: -80px;
+
+
+}
+
+.l2:hover{
+  box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -moz-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+    border-radius: 10px;
+}
+
+.right h5{
+  /* Heading */
+
+width: 511px;
+height: 130px;
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 64px;
+text-transform: capitalize;
+
+/* 3rd */
+color: #14183E;
+margin-bottom: 10px;
+
+
+}
+
+.in3{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  right: 90px;
+}
+
+.in3 h6{
+  /* Choose Destination */
+width: 100%;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 124.5%;
+/* identical to box height, or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+text-transform: capitalize;
+margin-bottom: 10px;
+
+
+}
+
+.in3 p{
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. */
+
+width: 327px;
+height: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 124.5%;
+/* or 20px */
+
+/* TEXT CLR */
+color: #5E6282;
+margin-top: -5px;
+
+
+}
+
+.left22{
+  width: 50%;
+}
+
+.li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+/* .section4{
+height: 0vw;
+
+} */
+
+.top4 h1{
+/* Why Choose Us */
+
+width: 251px;
+height: 50px;
+
+/* Display md/Bold */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Gray / 900 / default */
+color: #121212;
+
+
+
+
+}
+.right4{
+  position: relative;
+  /* left : -100px */
+}
+
+.top4 p{
+  /* Enjoy different experiences in every place you visit and discover new and affordable adventures of course. */
+
+width: 558px;
+height: 56px;
+
+/* Text xl/Regular */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+/* Gray / 900 / default */
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.top{
+  width: 100%;
+}
+
+.inside4 h1{
+/* Flight Ticket */
+
+width: 200px;
+height: 28px;
+
+/* Text xl/Bold */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.15px;
+
+/* Gray / 900 / default */
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.inside4 p{
+  /* Vitae donec pellentesque a aliquam et ultricies auctor. */
+
+width: 100%;
+height: 22px;
+
+/* Text md/Regular */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+display: flex;
+align-items: center;
+letter-spacing: 0.5px;
+
+/* Gray / 600 */
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.inside4{
+  margin-right: 65px;
+}
+
+.li:hover{
+  box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  -moz-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+    border-radius: 10px;
+}
+

@@ -4,6 +4,8 @@ header {
     justify-content: space-between;
     padding: 30px;
     width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
   
   }
   nav {
@@ -43,7 +45,8 @@ header {
       background-color: #ffff;
       position: sticky;
       top: 0;
-      max-width: 1800px;
-      margin: 0 auto;
+      z-index: 1;
+      
+      
   }
   
