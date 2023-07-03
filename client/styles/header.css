@@ -4,22 +4,58 @@ header {
     justify-content: space-between;
     padding: 30px;
     width: 90%;
-    max-width: 1500px;
-    margin: 0 auto;
+   
   
   }
   nav {
     width: 40%;
     position: relative;
     right: 100px;
+    
   }
   
   ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 700px;
+    margin-left: -100px;
   }
   
+  ul button{
+    padding: 1rem 1rem;
+    /* margin-top: 2em; */
+    border-radius: 0.4em;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  ul button::after{
+    content: "";
+  background: #fa8443;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  z-index: -1;
+  transition: 0.5s width;
+  }
+
+  ul button:hover::after{
+    width: 100%;
+  }
+
+  ul button:hover{
+    background: none;
+  }
+
+
   li {
     /* Nav Item */
   
@@ -46,6 +82,7 @@ header {
       position: sticky;
       top: 0;
       z-index: 1;
+      
       
       
   }
