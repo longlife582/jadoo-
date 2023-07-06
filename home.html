@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/header.css" />
   </head>
   <body>
+    <!-- <div class="cursor"></div> -->
     <div class="head">
       <header>
         <svg
@@ -45,13 +46,14 @@
 
         <nav>
           <ul>
-            <li>home</li>
-            <li>Desitnations</li>
-            <li>Flights</li>
-            <li>Contact us</li>
+            <a href="#"><li>home</li></a>
+           <a href="#section2"> <li>Desitnations</li></a>
+            <a href="#section3"><li>Flights</li></a>
+           <a href="#section4"> <li>Contact us</li></a>
             <li>profile</li>
             <button class="logout">Log out</button>
-            <li><span class="first-name"></span></li>
+            <div id="userInfo"></div>
+            
           </ul>
         </nav>
       </header>
@@ -72,7 +74,7 @@
           </div>
 
           <div class="left">
-            <img src="./images/hero.png" alt="a lady" />
+            <img src="./images/hero.png" class=".hero-img" alt="a lady" />
           </div>
         </div>
       </div>
@@ -120,7 +122,7 @@
         </div>
       </div>
 
-      <div class="section2">
+      <div class="section2" id="section2">
         <div class="c1 s2">
           <div class="top">
             <h1>Top Selling</h1>
@@ -161,7 +163,7 @@
         </div>
       </div>
 
-      <div class="section3">
+      <div class="section3" id="section3">
         <div class="c1 s3">
           <div class="right">
             <h2>Easy and Fast</h2>
@@ -231,7 +233,7 @@
         </div>
       </div>
 
-      <div class="section4">
+      <div class="section4" id="section4">
         <div class="c1 s3">
           <div class="left4">
             <img src="./images/illustrasi.png" alt="">
@@ -390,6 +392,7 @@
       </footer>
     </main>
     <script src="./js/home.js"></script>
+    <script src="./js/home2.js"></script>
     <script src="./js/logout.js"></script>
   </body>
 </html>

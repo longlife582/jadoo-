@@ -4,6 +4,7 @@ const emailInput = document.querySelector("#gmail");
 const passwordInput = document.querySelector("#password");
 const confirmPasswordInput = document.querySelector("#change");
 const form = document.querySelector(".card");
+const message = document.querySelector('.message');
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -15,12 +16,12 @@ form.addEventListener("submit", async (e) => {
   const confirmPassword = confirmPasswordInput.value;
 
   if (!firstName || !lastName || !email || !password || !confirmPassword) {
-    alert("Please fill the form correctly.");
+    message.textContent ="Please fill the form correctly.";
     return;
   }
 
   if (password !== confirmPassword) {
-    alert("Your passwords don't match.");
+    message.textContent="Your passwords don't match.";
     return;
   }
 
@@ -48,7 +49,7 @@ form.addEventListener("submit", async (e) => {
     const jsonData = await response.json();
     alert(jsonData.message);
   } catch (error) {
-    alert(error.message);
+   message.textContent = error.message
   }
   
 
