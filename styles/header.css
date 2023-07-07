@@ -2,10 +2,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 0px 40px;
     width: 100%;
     /* margin-bottom: 13px; */
-    padding-top: 13px;
+    /* padding-top: 13px; */
    
   
   }
@@ -23,6 +23,7 @@ header {
     justify-content: space-between;
     width: 900px;
     margin-left: -100px;
+    flex-wrap: wrap;
   }
   
   ul button{
@@ -64,11 +65,11 @@ header {
   
     position: relative;
   
-    font-family: "open Sans";
+    font-family: "Poppins";
     font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
     list-style-type: none;
     text-transform: capitalize;
     /* identical to box height */
@@ -124,8 +125,8 @@ header {
       position: sticky;
       top: 0;
       z-index: 1;
-      height: 109px;
-      max-height: 120px;
+      /* height: 109px; */
+      /* max-height: 120px; */
 
      
       

@@ -159,7 +159,7 @@ body {
   font-family: "Volkhov";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 64px;
   text-align: center;
   text-transform: capitalize;
@@ -199,7 +199,7 @@ height: 27px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 17px;
 line-height: 27px;
 text-align: center;
 /* text heading color */
@@ -214,7 +214,7 @@ height: 78px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 14px;
 line-height: 26px;
 /* or 162% */
 text-align: center;
@@ -251,7 +251,7 @@ margin-top: -40px;
   align-items: center;
   gap: 50px;
   top: 70px;
-  width: 100vw;
+  /* width: 70vw; */
   padding-left: 200px;
   padding-top: 80px;
   /* box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39); */
@@ -348,7 +348,7 @@ height: 27px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+font-size: 18px;
 line-height: 27px;
 /* identical to box height */
 text-align: center;
@@ -370,7 +370,7 @@ height: 65px;
 font-family: 'Volkhov';
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 64px;
 /* identical to box height */
 text-align: center;
@@ -451,7 +451,7 @@ height: 130px;
 font-family: 'Volkhov';
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 64px;
 text-transform: capitalize;
 
@@ -656,7 +656,7 @@ color: #636363;
   align-items: center;
   width: 70%;
   height: 50vh;
-width: 1170px;
+width: 1070px;
 height: 407px;
 background-color: #e5e2f1;
 border-radius: 20px 129px 20px 20px;
@@ -670,7 +670,7 @@ height: 108px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 33px;
+font-size: 27px;
 line-height: 54px;
 text-align: center;
 color: #5E6282;
@@ -702,7 +702,7 @@ padding-left: 2px;
 
 .input1 button{
   /* Rectangle 1 */
-width: 180px;
+width: 150px;
 height: 58px;
 background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
 border-radius: 10px;

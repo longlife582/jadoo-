@@ -29,8 +29,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 2em 30px; */
-  padding-top: 50px;
+  padding: 2em 30px;
+  /* height: 50vh; */
+  /* padding-top: 50px; */
   width: 100%;
 }
 
@@ -40,6 +41,7 @@ ul {
   justify-content: space-between;
   gap: 4em;
   color: black;
+  margin-top: 35px;
 }
 
 nav ul a {
@@ -72,6 +74,7 @@ nav ul a li {
   align-items: center;
 }
 
+
 .right h1 {
   font-size: 2.5rem;
   font-weight: 500;
@@ -99,6 +102,11 @@ nav ul a li {
   transition: 0.5s;
 }
 
+.c1 svg{
+  /* padding-top: 10px; */
+  margin-top: 30px;
+
+}
 .right a button::after {
   content: "";
   background: #fa8443;
