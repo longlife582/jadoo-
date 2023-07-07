@@ -125,8 +125,8 @@ app.get('/user/:id', async (req, res) => {
       throw Error('User not found.');
     }
 
-    const { first_name, last_name } = user[0][0];
-    res.status(200).json({ id, first_name, last_name });
+    const { first_name, last_name, email } = user[0][0];
+    res.status(200).json({ id, first_name, last_name , email});
   } catch (error) {
     res.status(400).json({ error: error.message });
   }

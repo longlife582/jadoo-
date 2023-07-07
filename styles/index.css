@@ -29,7 +29,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 30px;
+  /* padding: 2em 30px; */
+  padding-top: 50px;
   width: 100%;
 }
 
