@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fde9e1;
+  }
+  
+  .profile {
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    left: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-bottom: 15px;
+    
+  }
+  
+  .last {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .last h1 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: brown;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .last h6,
+  .last h4,
+  .last h3 {
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  .you {
+    background: #fa8443;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .you:hover {
+    background-color: #f96b3d;
+  }
+  

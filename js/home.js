@@ -18,6 +18,29 @@
 // })
 
 // Smooth scroll animation
+const userInfo = document.querySelector('#userInfo');
+const div = document.querySelector('.div');
+const dropDown = document.querySelector('i.fas')
+console.log(dropDown)
+
+userInfo.addEventListener('click', () => {
+  div.classList.toggle('hidden');
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();

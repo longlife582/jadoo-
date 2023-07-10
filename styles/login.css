@@ -6,17 +6,18 @@ main {
   background-color: #fffdfd;}
 
 .card {
-  background-color: white;
+  /* background-color: white; */
   position: relative;
   top: 60px;
   padding: 16px 32px;
   width: 30%;
   /* height: 300px; */
   max-width: 600px;
-  border-radius: 15px;
-  box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
-  -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
-  -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+  background: rgba(185,164,164,0.3);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(185,164,164,0.15);
+  border-radius: 5px;
 }
 
 .card h2 {
@@ -36,7 +37,7 @@ main {
 }
 
 .card label {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -46,7 +47,11 @@ main {
   height: 35px;
   margin-top: 10px;
   padding-left: 5px;
+  border: none;
+  border-bottom: 1px solid #b4a9a9;
   outline: none;
+  background: none;
+  caret-color: red;
 }
 
 .btn {

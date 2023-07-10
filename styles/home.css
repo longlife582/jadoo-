@@ -4,14 +4,17 @@
 * {
   box-sizing: border-box;
 }
+
+
 body {
   margin: 0;
   padding: 0;
+  /* background-color: #f5f2f1; */
   overflow-x: hidden;
 }
 
 .c1 {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -402,10 +405,15 @@ height: 60vh;
   /* top: 20vh; */
   padding-left: 80px;
   padding-right: 80px;
+  /* gap: 90px; */
  
 }
 .left4{
   margin-right: 90px;
+  width: 90%;
+}
+.left4 img{
+  width: 100%;
 }
 
 
@@ -553,7 +561,7 @@ color: #121212;
 }
 .right4{
   position: relative;
-  right: 80px;
+  right: -140px;
 }
 
 .top4 p{
