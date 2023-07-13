@@ -5,6 +5,9 @@ main {
   width: 100%;
   background-color: #fffdfd;}
 
+  body{
+    overflow-x: hidden;
+  }
 .card {
   /* background-color: white; */
   position: relative;
