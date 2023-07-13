@@ -180,6 +180,10 @@ gap: 50px;
 
 
 }
+/* 
+img{
+  width: 120%;
+} */
 
 .r2 {
   
@@ -187,9 +191,9 @@ gap: 50px;
   flex-direction: column;
   align-items: center;
   background: #ffffff;
-  box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
--webkit-box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
--moz-box-shadow: -2px -9px 93px 11px rgba(0,0,0,0.06);
+  box-shadow: -2px -9px 23px 11px rgba(0,0,0,0.06);
+-webkit-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
+-moz-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
   border-radius: 10px;
   padding-top: 90px;
   
@@ -445,9 +449,9 @@ margin-bottom: -80px;
 }
 
 .l2:hover{
-  box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
-  -webkit-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
-  -moz-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  box-shadow: -2px -9px 23px 11px rgba(0,0,0,0.06);
+-webkit-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
+-moz-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
     border-radius: 10px;
 }
 
@@ -646,9 +650,9 @@ color: #636363;
 }
 
 .li:hover{
-  box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
-  -webkit-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
-  -moz-box-shadow: -1px -5px 122px 3px rgba(0,0,0,0.39);
+  box-shadow: -2px -9px 23px 11px rgba(0,0,0,0.06);
+-webkit-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
+-moz-box-shadow: -2px -9px 33px 11px rgba(0,0,0,0.06);
     border-radius: 10px;
 }
 

@@ -7,6 +7,11 @@
     padding: 0;
     background-color: #fde9e1;
   }
+
+  .h1{
+    text-transform: capitalize;
+    font-size: 19px;
+  }
   
   .profile {
     /* height: 60vh; */
