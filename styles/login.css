@@ -3,11 +3,12 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #fffdfd;}
+  background-color: #fffdfd;
+}
 
-  body{
-    overflow-x: hidden;
-  }
+body {
+  overflow-x: hidden;
+}
 .card {
   /* background-color: white; */
   position: relative;
@@ -16,10 +17,10 @@ main {
   width: 30%;
   /* height: 300px; */
   max-width: 600px;
-  background: rgba(185,164,164,0.3);
+  background: rgba(185, 164, 164, 0.3);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(185,164,164,0.15);
+  border: 1px solid rgba(185, 164, 164, 0.15);
   border-radius: 5px;
 }
 
@@ -27,7 +28,6 @@ main {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
- 
 }
 
 .card div {
@@ -89,29 +89,48 @@ form p {
   text-align: center;
   font-size: 12px;
 }
-.btn2{
+.btn2 {
   background: #fa8443;
   display: flex;
   align-items: center;
   /* text-align: center; */
   position: relative;
- width: 30%;
- height: 40px;
- border-radius: 10px;
- color: white;
- /* margin-left: 200px; */
- padding-left: 50px;
- text-decoration: none;
- font-family: sans-serif;
- font-weight: 400;
- /* transition: calc(1s); */
-  
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  /* margin-left: 200px; */
+  padding-left: 50px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  /* transition: calc(1s); */
 }
 
-.init{
+
+
+.init {
   text-transform: capitalize;
   color: rgb(31, 109, 40);
 }
+
+.btn3 {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 400;
+  opacity: 0;
+
+}
+.spin2{
+  opacity: 0;
+}
+
+.spin{
+  opacity: 1;
+}
+
+
+
 /* .btn2:hover{
   transform: scale(1.2);
 } */

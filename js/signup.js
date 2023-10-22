@@ -1,3 +1,5 @@
+const { error } = require("console");
+
 const firstNameInput = document.querySelector("#First");
 const lastNameInput = document.querySelector("#Last");
 const emailInput = document.querySelector("#gmail");
@@ -51,6 +53,8 @@ form.addEventListener("submit", async (e) => {
   } catch (error) {
    message.textContent = error.message
   }
+
+  
   
 
   form.reset()

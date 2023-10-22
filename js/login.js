@@ -1,14 +1,14 @@
+const btn = document.querySelector(".btn2");
+const password = document.querySelector(".pass");
+const email = document.querySelector(".email");
+const form = document.querySelector(".card");
+const message = document.querySelector(".message");
+const btn5 = document.querySelector(".btn4");
 
-
-
-const btn = document.querySelector('.btn2');
-const password = document.querySelector('.pass');
-const email = document.querySelector('.email');
-const form = document.querySelector('.card');
-const message = document.querySelector('.message');
-
-btn.addEventListener('click', async (e) => {
+btn.addEventListener("click", async (e) => {
   e.preventDefault();
+
+  spain();
 
   const user = {
     email: email.value,
@@ -16,10 +16,10 @@ btn.addEventListener('click', async (e) => {
   };
 
   try {
-    const response = await fetch('http://localhost:5000/login', {
-      method: 'POST',
+    const response = await fetch("http://localhost:5000/login", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(user),
     });
@@ -32,14 +32,33 @@ btn.addEventListener('click', async (e) => {
     const { id, token, message } = await response.json();
 
     // Store the token and user ID in localStorage for subsequent requests
-    localStorage.setItem('token', token);
-    localStorage.setItem('userId', id);
+    localStorage.setItem("token", token);
+    localStorage.setItem("userId", id);
 
     form.reset();
 
     // Redirect to the home page
-    window.location.href = 'home.html';
+    window.location.href = "home.html";
   } catch (error) {
     message.textContent = error.message;
   }
 });
+
+form.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    btn.click();
+  }
+});
+
+const spain = () => {
+  const btn6 = document.querySelector(".btn3");
+  btn6.classList.add("spin");
+
+  btn5.classList.add("spin2");
+
+  setTimeout(() => {
+    btn5.classList.remove("spin2");
+    btn6.classList.remove("spin");
+  }, 2000);
+};
